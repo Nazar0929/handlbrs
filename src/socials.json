@@ -1,0 +1,65 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "name": "YouTube",
+    "description": "Платформа для перегляду та публікації відео, де користувачі можуть заробляти на рекламі, спонсорствах і підписках.",
+    "top_earning_region": "США",
+    "downloads": "10+ мільярдів"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "name": "TikTok",
+    "description": "Соціальна мережа для коротких відео, популярна серед молоді. Автори отримують дохід через рекламу, співпраці й фонд TikTok Creator.",
+    "top_earning_region": "США",
+    "downloads": "3+ мільярди"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "name": "Instagram",
+    "description": "Платформа для фото та відео, що належить Meta. Заробіток йде від реклами, співпраці з брендами та продажів.",
+    "top_earning_region": "США",
+    "downloads": "5+ мільярдів"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png",
+    "name": "Facebook",
+    "description": "Найбільша соцмережа світу, де користувачі спілкуються, діляться контентом і просувають бізнес через рекламу.",
+    "top_earning_region": "США",
+    "downloads": "5+ мільярдів"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg",
+    "name": "X (Twitter)",
+    "description": "Платформа для коротких повідомлень і новин. Заробіток можливий через рекламу, підписки та монетизацію твітів.",
+    "top_earning_region": "США",
+    "downloads": "1+ мільярд"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Snapchat_logo.png",
+    "name": "Snapchat",
+    "description": "Месенджер для обміну фото та відео, що зникають. Автори заробляють через рекламний контент і Snap Spotlight.",
+    "top_earning_region": "США",
+    "downloads": "1+ мільярд"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "name": "Pinterest",
+    "description": "Платформа для пошуку ідей у вигляді зображень. Заробіток можливий через партнерські посилання й просування товарів.",
+    "top_earning_region": "США",
+    "downloads": "1+ мільярд"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Linkedin_logo.svg",
+    "name": "LinkedIn",
+    "description": "Професійна соцмережа для бізнесу та кар'єри. Основний заробіток — з реклами, рекрутингу та навчальних програм.",
+    "top_earning_region": "США",
+    "downloads": "500+ мільйонів"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Telegram_2019_Logo.svg",
+    "name": "Telegram",
+    "description": "Месенджер з можливістю створювати канали, групи та боти. Заробіток через рекламу, продаж підписок і контенту.",
+    "top_earning_region": "Індія",
+    "downloads": "1+ мільярд"
+  }
+]
