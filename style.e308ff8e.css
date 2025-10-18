@@ -23,7 +23,7 @@ body {
   max-width: 1300px;
 }
 
-/* Тёмная карточка */
+
 .item {
   background: #121212;
   border-radius: 25px;
@@ -42,7 +42,6 @@ body {
   box-shadow: 0 15px 45px rgba(255, 255, 255, 0.1);
 }
 
-/* Белый блок под картинку */
 .images__socials {
   width: 260px;
   height: 160px;
@@ -53,7 +52,7 @@ body {
   padding: 10px;
 }
 
-/* Текст и заголовки */
+
 .title__socials {
   font-size: 22px;
   font-weight: 700;
@@ -85,18 +84,18 @@ body {
   font-size: 15px;
 }
 
-/* Цвета соцсетей */
-.item:nth-child(1) .title__socials { color: #ff0000; }   /* YouTube */
-.item:nth-child(2) .title__socials { color: #ff0050; }   /* TikTok */
-.item:nth-child(3) .title__socials { color: #e1306c; }   /* Instagram */
-.item:nth-child(4) .title__socials { color: #1877f2; }   /* Facebook */
-.item:nth-child(5) .title__socials { color: #1da1f2; }   /* X */
-.item:nth-child(6) .title__socials { color: #fffc00; }   /* Snapchat */
-.item:nth-child(7) .title__socials { color: #e60023; }   /* Pinterest */
-.item:nth-child(8) .title__socials { color: #0a66c2; }   /* LinkedIn */
-.item:nth-child(9) .title__socials { color: #229ed9; }   /* Telegram */
 
-/* Плавное появление карточек */
+.item:nth-child(1) .title__socials { color: #ff0000; }  
+.item:nth-child(2) .title__socials { color: #ff0050; }
+.item:nth-child(3) .title__socials { color: #e1306c; }  
+.item:nth-child(4) .title__socials { color: #1877f2; } 
+.item:nth-child(5) .title__socials { color: #1da1f2; }   
+.item:nth-child(6) .title__socials { color: #fffc00; }  
+.item:nth-child(7) .title__socials { color: #e60023; }  
+.item:nth-child(8) .title__socials { color: #0a66c2; }  
+.item:nth-child(9) .title__socials { color: #229ed9; }  
+
+
 .item {
   opacity: 0;
   transform: translateY(40px);
@@ -133,11 +132,11 @@ body {
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  display: flex;             /* включаем флекс */
-  flex-wrap: wrap;           /* перенос карточек на новый ряд */
-  justify-content: center;   /* центрируем карточки по горизонтали */
-  gap: 30px;                 /* расстояние между карточками */
-  max-width: 1300px;         /* чтобы блок не растягивался на всю ширину */
+  display: flex;            
+  flex-wrap: wrap;           
+  justify-content: center;   
+  gap: 30px;                
+  max-width: 1300px;        
 }
 
 
@@ -166,8 +165,8 @@ body {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 6px;
-  color: #fff; /* белый цвет, чтобы выделялось на темном фоне */
-  text-shadow: 0 1px 3px rgba(0,0,0,0.5); /* немного тени для читаемости */
+  color: #fff; 
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5); 
 }
 
 

@@ -2800,13 +2800,9 @@ var _bloggersTemplate = _interopRequireDefault(require("./bloggers-template.hbs"
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 const listEl = document.querySelector(".list__socials");
 const listRef = document.querySelector(".list__bloggers");
-
-// Социальные сети
 listEl.innerHTML = (0, _socialsTemplate.default)({
   socials: _socials.default
 });
-
-// Блогеры
 listRef.innerHTML = (0, _bloggersTemplate.default)({
   bloggers: _media.default
 });
@@ -2835,7 +2831,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60605" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64811" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
