@@ -1,21 +1,171 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ff00cc, #3333ff);
+  min-height: 100vh;
+
+}
+
+.media {
+  width: 100%;
+  padding: 60px 0;
+}
+
 .list__socials {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1300px;
 }
 
-.images__media {
-    width: 300px;
-    height: 200px;
-}
-
+/* Тёмная карточка */
 .item {
-    border: 2px solid black;
-    border-radius: 5%;
-    padding: 20px;
+  background: #121212;
+  border-radius: 25px;
+  width: 280px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.item:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 45px rgba(255, 255, 255, 0.1);
+}
+
+/* Белый блок под картинку */
+.images__socials {
+  width: 260px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/* Текст и заголовки */
+.title__socials {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.text__socials {
+  font-size: 15px;
+  color: #d1d1d1;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.region__socials {
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  backdrop-filter: blur(4px);
+}
+
+.downloads__socials {
+  font-weight: 600;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* Цвета соцсетей */
+.item:nth-child(1) .title__socials { color: #ff0000; }   /* YouTube */
+.item:nth-child(2) .title__socials { color: #ff0050; }   /* TikTok */
+.item:nth-child(3) .title__socials { color: #e1306c; }   /* Instagram */
+.item:nth-child(4) .title__socials { color: #1877f2; }   /* Facebook */
+.item:nth-child(5) .title__socials { color: #1da1f2; }   /* X */
+.item:nth-child(6) .title__socials { color: #fffc00; }   /* Snapchat */
+.item:nth-child(7) .title__socials { color: #e60023; }   /* Pinterest */
+.item:nth-child(8) .title__socials { color: #0a66c2; }   /* LinkedIn */
+.item:nth-child(9) .title__socials { color: #229ed9; }   /* Telegram */
+
+/* Плавное появление карточек */
+.item {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.item:nth-child(1) { animation-delay: 0.1s; }
+.item:nth-child(2) { animation-delay: 0.2s; }
+.item:nth-child(3) { animation-delay: 0.3s; }
+.item:nth-child(4) { animation-delay: 0.4s; }
+.item:nth-child(5) { animation-delay: 0.5s; }
+.item:nth-child(6) { animation-delay: 0.6s; }
+.item:nth-child(7) { animation-delay: 0.7s; }
+.item:nth-child(8) { animation-delay: 0.8s; }
+.item:nth-child(9) { animation-delay: 0.9s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.list__bloggers {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;             /* включаем флекс */
+  flex-wrap: wrap;           /* перенос карточек на новый ряд */
+  justify-content: center;   /* центрируем карточки по горизонтали */
+  gap: 30px;                 /* расстояние между карточками */
+  max-width: 1300px;         /* чтобы блок не растягивался на всю ширину */
+}
+
+
+.list__bloggers .item:hover {
+  box-shadow: 0 0 25px #0ff, 0 0 50px #f0f;
+  transform: scale(1.05);
+}
+
+.list__bloggers .images__media {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+  background: #fff;
+}
+
+.list__bloggers .title__name { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+.list__bloggers .region__socials { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 13px; margin-bottom: 12px; background: linear-gradient(45deg,#ff005c,#ff7c00); font-weight:600; }
+.list__bloggers .text__platform { font-size: 13px; line-height: 1.5; color: #ddd; margin-bottom:10px; }
+.list__bloggers .subscribes__socials { font-weight: 700; color: #0ff; font-size: 14px; }
+
+
+.list__bloggers .title__name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #fff; /* белый цвет, чтобы выделялось на темном фоне */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5); /* немного тени для читаемости */
 }

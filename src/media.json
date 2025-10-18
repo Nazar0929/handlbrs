@@ -1,62 +1,62 @@
 [
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/MrBeast_2023.jpg",
+    "image": "https://assets.newsweek.com/wp-content/uploads/2025/08/2710634-mrbeast.jpg?w=1600&h=900&q=88",
     "name": "MrBeast (Джиммі Дональдсон)",
     "platform": "YouTube",
     "description": "Найпопулярніший YouTuber у світі. Відомий масштабними благодійними акціями, розіграшами та дорогими викликами.",
     "followers": "300+ мільйонів підписників"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Khaby_Lame_-_2021_%28cropped%29.jpg",
+    "image": "https://i.guim.co.uk/img/media/f2d7e6f8af8d939417a63a881ba7146429cb2f49/0_708_5143_3086/master/5143.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=242c5fb36f6c9001a7f44b831412445c",
     "name": "Khaby Lame",
     "platform": "TikTok",
     "description": "Італійський TikTok-блогер, який став відомим завдяки мовчазним і кумедним реакціям на складні лайфхаки.",
     "followers": "160+ мільйонів підписників"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Instagram_icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg",
     "name": "Cristiano Ronaldo",
     "platform": "Instagram",
     "description": "Легендарний футболіст і найпопулярніша людина в Instagram. Ділиться фото з тренувань, сім’ї та брендовими рекламами.",
     "followers": "630+ мільйонів підписників"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Mark_Zuckerberg_F8_2019_Keynote_%2847862946261%29_%28cropped%29.jpg",
+    "image": "https://tiinside.com.br/wp-content/uploads/2025/01/Mark-Zuckernerg-scaled.webp",
     "name": "Mark Zuckerberg",
     "platform": "Facebook",
     "description": "Засновник Meta (Facebook, Instagram). Один із найвпливовіших людей у світі технологій і соціальних мереж.",
     "followers": "120+ мільйонів підписників"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Elon_Musk_Royal_Society_%28crop2%29.jpg",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/elon-musk-gettyimages-2147789844-web-675b2c17301ea.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=640:*",
     "name": "Elon Musk",
     "platform": "X (Twitter)",
     "description": "Підприємець і власник платформи X. Активно ділиться думками про технології, космос і бізнес.",
     "followers": "190+ мільйонів підписників"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Kylie_Jenner_in_2021.jpg",
+    "image": "https://imageio.forbes.com/specials-images/imageserve/618e7d9fdfe79744d793c0c6/0x0.jpg?format=jpg&crop=966,966,x489,y121,safe&height=416&width=416&fit=bounds",
     "name": "Kylie Jenner",
     "platform": "Snapchat",
     "description": "Підприємиця та модель, яка прославилася через Snapchat та Instagram. Має власний бренд косметики Kylie Cosmetics.",
     "followers": "40+ мільйонів у Snapchat"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Charlie_D%27Amelio_2023.jpg",
+    "image": "https://people.com/thmb/ZA3IhehHovu_1FA2wSPNmcBW9qA=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2)/charli-damelio-8-3cea3aa1917c4f18a7bfabe52962b758.jpg",
     "name": "Charli D’Amelio",
     "platform": "TikTok / Pinterest",
     "description": "Одна з перших суперзірок TikTok, танцівниця та інфлюенсерка. Популярна серед молоді у всьому світі.",
     "followers": "150+ мільйонів у TikTok"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Bill_Gates_2018.jpg",
+    "image": "https://imageio.forbes.com/specials-images/imageserve/62d599ede3ff49f348f9b9b4/0x0.jpg?format=jpg&crop=821,821,x155,y340,safe&height=416&width=416&fit=bounds",
     "name": "Bill Gates",
     "platform": "LinkedIn",
     "description": "Засновник Microsoft. Ділиться думками про освіту, науку, екологію та благодійність.",
     "followers": "35+ мільйонів підписників"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Pavel_Durov_2023.jpg",
+    "image": "https://tochka.by/upload/resize_cache/iblock/407/407ed72591f642544b51af1aaeda1f61/768_512_1/19afc97774c5cf30f00ee7d5f40a20d9.jpg",
     "name": "Pavel Durov",
     "platform": "Telegram",
     "description": "Засновник Telegram і ВКонтакте. Відомий своєю позицією за свободу слова та приватність у мережі.",
