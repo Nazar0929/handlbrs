@@ -7,8 +7,6 @@ import templateBloggers from "./bloggers-template.hbs"
 const listEl = document.querySelector(".list__socials");
 const listRef = document.querySelector(".list__bloggers");
 
-// Социальные сети
-listEl.innerHTML = templateSocials({socials});
 
-// Блогеры
+listEl.innerHTML = templateSocials({socials});
 listRef.innerHTML = templateBloggers({bloggers});
